@@ -1,0 +1,23 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^12.0.4",
+    "nodemon": "^2.0.15"
+  }
+}
